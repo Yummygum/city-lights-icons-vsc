@@ -1,0 +1,106 @@
+{
+  "iconDefinitions": {
+    "_default": {
+      "iconPath": "./svg/default-icon.svg"
+    },
+    "_folder": {
+      "iconPath": "./svg/folder-icon.svg"
+    },
+    "_folder_open": {
+      "iconPath": "./svg/folder-icon-open.svg"
+    },
+    "_markdown": {
+      "iconPath": "./svg/markdown-icon.svg"
+    },
+    "_bash": {
+      "iconPath": "./svg/bash-icon.svg"
+    },
+    "_json": {
+      "iconPath": "./svg/json-icon.svg"
+    },
+    "_babel": {
+      "iconPath": "./svg/babel-icon.svg"
+    },
+    "_svg": {
+      "iconPath": "./svg/svg-icon.svg"
+    },
+    "_yarn": {
+      "iconPath": "./svg/yarn-icon.svg"
+    },
+    "_gitignore": {
+      "iconPath": "./svg/gitignore-icon.svg"
+    },
+    "_git": {
+      "iconPath": "./svg/git-icon.svg"
+    },
+    "_typescript": {
+      "iconPath": "./svg/typescript-icon.svg"
+    },
+    "_yaml": {
+      "iconPath": "./svg/yaml-icon.svg"
+    },
+    "_js": {
+      "iconPath": "./svg/js-icon.svg"
+    },
+    "_html": {
+      "iconPath": "./svg/html-icon.svg"
+    },
+    "_css": {
+      "iconPath": "./svg/css-icon.svg"
+    },
+    "_scss": {
+      "iconPath": "./svg/sass-icon.svg"
+    },
+    "_sass": {
+      "iconPath": "./svg/sass-icon.svg"
+    },
+    "_vue": {
+      "iconPath": "./svg/vue-icon.svg"
+    },
+    "_eslint": {
+      "iconPath": "./svg/eslint-icon.svg"
+    },
+    "_editorconfig": {
+      "iconPath": "./svg/editorconfig-icon.svg"
+    }
+  },
+  "file": "_default",
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
+  "fileExtensions": {
+    "json": "_json",
+    "babelrc": "_babel",
+    "sh": "_bash",
+    "md": "_markdown",
+    "svg": "_svg",
+    "gitignore": "_gitignore",
+    "gitconfig": "_git",
+    "gitkeep": "_git",
+    "gitattributes": "_git",
+    "gitmodules": "_git",
+    "ts": "_typescript",
+    "typescript": "_typescript",
+    "spec.ts": "_typescript",
+    "typescriptreact": "_typescript",
+    "yml": "_yaml",
+    "yaml": "_yaml",
+    "js": "_js",
+    "spec.js": "_js",
+    "html": "_html",
+    "css": "_css",
+    "sass": "_sass",
+    "scss": "_scss",
+    "vue": "_vue",
+    "eslintrc": "_eslint",
+    "eslintrc.js": "_eslint",
+    "eslintrc.yaml": "_eslint",
+    "eslintrc.yml": "_eslint",
+    "eslintrc.json": "_eslint",
+    "eslintignore": "_eslint",
+    "editorconfig": "_editorconfig"
+  },
+  "fileNames": {
+    "yarn.clean": "_yarn",
+    "yarn.lock": "_yarn"
+  }
+}

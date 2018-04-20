@@ -1,0 +1,19 @@
+{
+	"name": "city-lights-icon-vsc",
+	"displayName": "%displayName%",
+	"description": "%description%",
+	"categories": [ "Themes" ],
+	"version": "1.0.0",
+  "publisher": "yummygum",
+  "repository": "https://github.com/Yummygum/city-lights-icons-vsc",
+	"engines": { "vscode": "*" },
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "city-lights-icons-vsc",
+				"label": "City Lights Icon Theme (Visual Studio Code)",
+				"path": "./icons/city-lights-icon-theme.json"
+			}
+		]
+	}
+}

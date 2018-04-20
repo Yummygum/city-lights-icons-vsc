@@ -84,7 +84,7 @@
     "_html": {
       "iconPath": "./svg/html-icon.svg"
     },
-    "_html_ligth": {
+    "_html_light": {
       "iconPath": "./svg/html-icon-active.svg"
     },
     "_css": {

@@ -379,7 +379,7 @@
       "iconPath": "./svg/travis-icon.svg"
     },
     "_travis_light": {
-      "iconPath": "./svg/travis-icon.svg"
+      "iconPath": "./svg/travis-icon-active.svg"
     },
     "_textfile": {
       "iconPath": "./svg/txt-icon.svg"

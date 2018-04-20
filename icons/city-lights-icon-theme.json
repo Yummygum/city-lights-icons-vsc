@@ -62,6 +62,147 @@
     },
     "_editorconfig": {
       "iconPath": "./svg/editorconfig-icon.svg"
+    },
+    "_angular": {
+      "iconPath": "./svg/angular-icon.svg"
+    },
+    "_apache": {
+      "iconPath": "./svg/apache-icon.svg"
+    },
+    "_audio": {
+      "iconPath": "./svg/audio-icon.svg"
+    },
+    "_bower": {
+      "iconPath": "./svg/bower-icon.svg"
+    },
+    "_cpp": {
+      "iconPath": "./svg/cplusplus-icon.svg"
+    },
+    "_cacoascript": {
+      "iconPath": "./svg/cacoascript-icon.svg"
+    },
+    "_bootstrap": {
+      "iconPath": "./svg/bootstrap-icon.svg"
+    },
+    "_circle_ci:": {
+      "iconPath": "./svg/circleci-icon.svg"
+    },
+    "_clojure": {
+      "iconPath": "./svg/clojure-icon.svg"
+    },
+    "_coffeescript": {
+      "iconPath": "./svg/coffeescript-icon.svg"
+    },
+    "_csharp": {
+      "iconPath": "./svg/csharp-icon.svg"
+    },
+    "_docker": {
+      "iconPath": "./svg/docker-icon.svg"
+    },
+    "_dsstore": {
+      "iconPath": "./svg/ds_store-icon.svg"
+    },
+    "_excel": {
+      "iconPath": "./svg/excel-icon.svg"
+    },
+    "_font": {
+      "iconPath": "./svg/font-icon.svg"
+    },
+    "_gemfile": {
+      "iconPath": "./svg/gemfile-icon.svg"
+    },
+    "_go": {
+      "iconPath": "./svg/go-icon.svg"
+    },
+    "_grunt": {
+      "iconPath": "./svg/grunt-icon.svg"
+    },
+    "_gulp": {
+      "iconPath": "./svg/gulp-icon.svg"
+    },
+    "_haml": {
+      "iconPath": "./svg/haml-icon.svg"
+    },
+    "_handlebars": {
+      "iconPath": "./svg/handlebars-icon.svg"
+    },
+    "_haskell": {
+      "iconPath": "./svg/haskell-icon.svg"
+    },
+    "_heroku": {
+      "iconPath": "./svg/heroku-icon.svg"
+    },
+    "_illustrator": {
+      "iconPath": "./svg/illustrator-icon.svg"
+    },
+    "_image": {
+      "iconPath": "./svg/image-icon.svg"
+    },
+    "_image_2": {
+      "iconPath": "./svg/image2-icon.svg"
+    },
+    "_jade": {
+      "iconPath": "./svg/jade-icon.svg"
+    },
+    "_java": {
+      "iconPath": "./svg/java-icon.svg"
+    },
+    "_jsx": {
+      "iconPath": "./svg/jsx-icon.svg"
+    },
+    "_less": {
+      "iconPath": "./svg/less-icon.svg"
+    },
+    "_nodejs": {
+      "iconPath": "./svg/node-icon.svg"
+    },
+    "_npm": {
+      "iconPath": "./svg/npm-icon.svg"
+    },
+    "_pdf": {
+      "iconPath": "./svg/pdf-icon.svg"
+    },
+    "_photoshop": {
+      "iconPath": "./svg/photoshop-icon.svg"
+    },
+    "_php": {
+      "iconPath": "./svg/php-icon.svg"
+    },
+    "_pug": {
+      "iconPath": "./svg/pug-icon.svg"
+    },
+    "_python": {
+      "iconPath": "./svg/python-icon.svg"
+    },
+    "_ruby": {
+      "iconPath": "./svg/ruby-icon.svg"
+    },
+    "_scala": {
+      "iconPath": "./svg/scala-icon.svg"
+    },
+    "_sketchplugin": {
+      "iconPath": "./svg/sketchplugin-icon.svg"
+    },
+    "_stylus": {
+      "iconPath": "./svg/stylus-icon.svg"
+    },
+    "_swift": {
+      "iconPath": "./svg/swift-icon.svg"
+    },
+    "_travis": {
+      "iconPath": "./svg/travis-icon.svg"
+    },
+    "_textfile": {
+      "iconPath": "./svg/txt-icon.svg"
+    },
+    "_vscode": {
+      "iconPath": "./svg/vscode-icon.svg"
+    },
+    "_yml": {
+      "iconPath": "./svg/yml-icon.svg"
+    },
+    "_zip": {
+      "iconPath": "./svg/zip-icon.svg"
     }
   },
   "file": "_default",
@@ -73,6 +214,7 @@
     "sh": "_bash",
     "md": "_markdown",
     "svg": "_svg",
+    "svgx": "_svg",
     "gitignore": "_gitignore",
     "gitconfig": "_git",
     "gitkeep": "_git",
@@ -83,9 +225,13 @@
     "spec.ts": "_typescript",
     "typescriptreact": "_typescript",
     "yml": "_yaml",
-    "yaml": "_yaml",
+    "yaml": "_yml",
     "js": "_js",
     "spec.js": "_js",
+    "js.map": "_js",
+    "es": "_js",
+    "es5": "_js",
+    "es7": "_js",
     "html": "_html",
     "css": "_css",
     "sass": "_sass",
@@ -97,10 +243,98 @@
     "eslintrc.yml": "_eslint",
     "eslintrc.json": "_eslint",
     "eslintignore": "_eslint",
-    "editorconfig": "_editorconfig"
+    "editorconfig": "_editorconfig",
+    "angular-cli.json": "_angular",
+    "htaccess": "_apache",
+    "mp3": "_audio",
+		"ogg": "_audio",
+    "wav": "_audio",
+    "bowerrc": "_bower",
+    "eot": "_font",
+		"ttf": "_font",
+		"woff": "_font",
+    "woff2": "_font",
+    "pdf": "_pdf",
+    "psd": "_photoshop",
+    "ai": "_illustrator",
+    "jar": "_zip",
+    "zip": "_zip",
+    "scala": "_scala",
+    "gif": "_image",
+		"jpg": "_image",
+		"jpeg": "_image",
+		"png": "_image",
+    "pxm": "_image",
+    "vscode": "_vscode",
+    "mov": "_video",
+		"ogv": "_video",
+		"webm": "_video",
+		"avi": "_video",
+		"mpg": "_video",
+    "mp4": "_video",
+    "pug": "_pug",
+    "stylus": "_stylus",
+    "styl": "_stylus",
+    "npm-debug.log": "_npm",
+    "npmignore": "_npm",
+    "npmrc": "_npm",
+    "java": "_java",
+    "classpath": "_java",
+    "m": "_cacoascript",
+    "dockerignore": "_docker",
+    "ds_store": "_dsstore",
+    "txt": "_textfile",
+    "go": "_go",
+    "slide": "_go",
+    "article": "_go",
+    "xls": "_excel",
+    "xlsx": "_excel",
+    "php": "_php",
+    "travis.yml": "_travis"
+  },
+  "languageIds": {
+    "clojure": "_clojure",
+    "coffeescript": "_coffeescript",
+    "csharp": "_csharp",
+    "cpp": "_cpp",
+    "css": "_css",
+    "dockerfile": "_docker",
+    "go": "_go",
+    "handlebars": "_handlebars",
+    "html": "_html",
+    "properties": "_java",
+    "java": "_java",
+    "javascript": "_js",
+    "json": "_json",
+    "less": "_less",
+    "markdown": "_markdown",
+    "php": "_php",
+    "jade": "_jade",
+    "python": "_python",
+    "ruby": "_ruby",
+    "scss": "_scss",
+    "sass": "_sass",
+    "swift": "_swift",
+    "typescript": "_typescript",
+    "typescriptreact": "_typescript",
+    "yaml": "_yaml",
+    "vue-html": "_vue",
+    "git-commit": "_git",
+    "git-rebase": "_git",
+    "textplain": "_textfile"
   },
   "fileNames": {
     "yarn.clean": "_yarn",
-    "yarn.lock": "_yarn"
+    "yarn.lock": "_yarn",
+    "bower.json": "_bower",
+    "gruntfile.js": "_grunt",
+		"gruntfile.babel.js": "_grunt",
+		"gruntfile.coffee": "_grunt",
+    "gulpfile": "_gulp",
+    "gulpfile.js": "_gulp",
+    "gulpfile.babel.js": "_gulp",
+    "sass-lint.yml": "_sass",
+    "procfile": "_heroku",
+    "npm-debug.log": "_npm"
   }
 }

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#453FB3"/>
+      <stop offset="100%" stop-color="#D8CEE1"/>
+    </linearGradient>
+    <linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#6D64A8"/>
+      <stop offset="100%" stop-color="#201A4B"/>
+    </linearGradient>
+    <rect id="b" width="16" height="15" rx="1"/>
+    <radialGradient id="d" cx="51.503%" cy="57.962%" r="134.177%" fx="51.503%" fy="57.962%" gradientTransform="matrix(0 1 -.92857 0 1.053 .065)">
+      <stop offset="0%" stop-color="#FBE58A" stop-opacity=".524"/>
+      <stop offset="100%" stop-color="#6059BB" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="url(#a)" xlink:href="#b"/>
+    <rect width="15" height="14" x=".5" y=".5" stroke="url(#c)" rx="1"/>
+    <rect width="14" height="13" x="1" y="1" fill="url(#d)" rx="1"/>
+    <path fill="#67628C" d="M0.5,0 L2.5,0 L2.5,0 C2.77614237,-5.07265313e-17 3,0.223857625 3,0.5 L3,8 L0,8 L0,0.5 L0,0.5 C-3.38176876e-17,0.223857625 0.223857625,5.07265313e-17 0.5,0 Z" transform="translate(1 6)"/>
+    <path fill="#67628C" d="M8.5,9 L10.5,9 L10.5,9 C10.7761424,9 11,9.22385763 11,9.5 L11,14 L8,14 L8,9.5 L8,9.5 C8,9.22385763 8.22385763,9 8.5,9 Z"/>
+    <path fill="#67628C" d="M5.5,5 L8.5,5 L8.5,5 C8.77614237,5 9,5.22385763 9,5.5 L9,12 L5,12 L5,5.5 L5,5.5 C5,5.22385763 5.22385763,5 5.5,5 Z" opacity=".67"/>
+    <path fill="#67628C" d="M12.5,5 L14.5,5 L14.5,5 C14.7761424,5 15,5.22385763 15,5.5 L15,14 L12,14 L12,5.5 L12,5.5 C12,5.22385763 12.2238576,5 12.5,5 Z"/>
+    <rect width="1" height="1" x="6.207" y="2.207" fill="#FFF6E9" opacity=".45" transform="rotate(-45 6.707 2.707)"/>
+    <rect width="1" height="1" x="4.207" y="4.207" fill="#FFF6E9" opacity=".2" transform="rotate(-45 4.707 4.707)"/>
+    <rect width="1" height="1" x="11" y="1" fill="#FFF6E9" opacity=".3" transform="rotate(-45 11.5 1.5)"/>
+    <rect width="1" height="1" x="13" y="2" fill="#FFF6E9" opacity=".4" transform="rotate(-45 13.5 2.5)"/>
+    <rect width="1" height="1" x="9" y="3" fill="#FFF6E9" opacity=".6" transform="rotate(-45 9.5 3.5)"/>
+    <rect width="1" height="1" x="8" y="1" fill="#FFF6E9" opacity=".1" transform="rotate(-45 8.5 1.5)"/>
+    <rect width="1" height="1" x="3" y="1" fill="#FFF6E9" opacity=".5" transform="rotate(-45 3.5 1.5)"/>
+    <rect width="1" height="1" x="1" y="3" fill="#FFF6E9" opacity=".3" transform="rotate(-45 1.5 3.5)"/>
+    <g transform="translate(3 7)">
+      <path fill="#433D68" d="M0.5,0 L4.5,0 L4.5,0 C4.77614237,-5.07265313e-17 5,0.223857625 5,0.5 L5,7 L0,7 L0,0.5 L0,0.5 C-3.38176876e-17,0.223857625 0.223857625,5.07265313e-17 0.5,0 Z"/>
+      <path fill="#F7C683" d="M1,1 L2,1 L2,2 L1,2 L1,1 Z M3,1 L4,1 L4,2 L3,2 L3,1 Z M1,3 L2,3 L2,4 L1,4 L1,3 Z M3,3 L4,3 L4,4 L3,4 L3,3 Z M1,5 L2,5 L2,6 L1,6 L1,5 Z M3,5 L4,5 L4,6 L3,6 L3,5 Z" opacity=".5"/>
+    </g>
+    <g transform="translate(10 6)">
+      <path fill="#433D68" d="M0.5,0 L2.5,0 L2.5,0 C2.77614237,-5.07265313e-17 3,0.223857625 3,0.5 L3,8 L0,8 L0,0.5 L0,0.5 C-3.38176876e-17,0.223857625 0.223857625,5.07265313e-17 0.5,0 Z"/>
+      <path fill="#F7C683" d="M1,1 L2,1 L2,2 L1,2 L1,1 Z M1,3 L2,3 L2,4 L1,4 L1,3 Z M1,5 L2,5 L2,6 L1,6 L1,5 Z" opacity=".5"/>
+    </g>
+  </g>
+</svg>

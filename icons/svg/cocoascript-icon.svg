@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g fill="none" fill-rule="evenodd" transform="translate(0 1)">
+    <polygon fill="#646A7B" points="8 0 12.794 5 3.206 5"/>
+    <polygon fill="#585E6F" points="8 14 12.794 5 3.206 5" opacity=".7"/>
+    <polygon fill="#585E6F" points="8 .107 3.466 .469 3.001 5.016 3.834 4.891" opacity=".8"/>
+    <polygon fill="#585E6F" points="12.989 .036 8.455 .469 8 4.988 9.111 4.988" opacity=".8" transform="matrix(-1 0 0 1 20.989 0)"/>
+    <polygon fill="#585E6F" points="12.534 5 16 .469 15.741 5" opacity=".6" transform="matrix(-1 0 0 1 28.534 0)"/>
+    <polygon fill="#585E6F" points="0 5 3.466 .469 3.206 5" opacity=".6"/>
+    <polygon fill="#585E6F" points="0 5 8 14 3.704 5.003" opacity=".45"/>
+    <polygon fill="#585E6F" points="8 5 16 14 11.633 4.976" opacity=".45" transform="matrix(-1 0 0 1 24 0)"/>
+  </g>
+</svg>

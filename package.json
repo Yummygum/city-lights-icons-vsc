@@ -1,12 +1,13 @@
 {
 	"name": "city-lights-icon-vsc",
-	"displayName": "%displayName%",
-	"description": "%description%",
-	"categories": [ "Themes" ],
-	"version": "1.0.0",
-  "publisher": "yummygum",
+	"displayName": "City Lights Icon package",
+	"description": ":",
+	"categories": [ "Themes", "icons", "icon" ],
+	"version": "1.0.1",
+  "publisher": "Yummygum",
   "repository": "https://github.com/Yummygum/city-lights-icons-vsc",
 	"engines": { "vscode": "*" },
+  "icon": "icon.png",
 	"contributes": {
 		"iconThemes": [
 			{

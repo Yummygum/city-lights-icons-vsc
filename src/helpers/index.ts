@@ -53,3 +53,12 @@ export const promptToReload = () => {
 const reloadWindow = () => {
   return vscode.commands.executeCommand('workbench.action.reloadWindow');
 };
+
+/**
+ * Is the theme already activated in the editor configuration?
+ * @param{boolean} global false by default
+ */
+export const isThemeActivated = (global: boolean = false): boolean => {
+  return global ? (getConfig().inspect('workbench.iconTheme').globalValue === 'city-lights-icon-vsc-light' || getConfig().inspect('workbench.iconTheme').globalValue === 'city-lights-icon-vsc')
+      : (getConfig().inspect('workbench.iconTheme').workspaceValue === 'city-lights-icon-vsc-light' || getConfig().inspect('workbench.iconTheme').globalValue === 'city-lights-icon-vsc');
+};

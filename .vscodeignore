@@ -1,4 +1,8 @@
 .gitignore
-.vscode
-.vscode/launch.json
-
+.vscode/**
+src/**
+tsconfig.json
+tslint.json
+package-lock.json
+yarn.lock
+**/*.map

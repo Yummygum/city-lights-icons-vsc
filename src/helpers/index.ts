@@ -2,6 +2,12 @@ import * as vscode from 'vscode';
 import * as path from 'path';
 import * as fs from 'fs';
 import { AdvancedWorkspaceConfiguration } from '../models'
+import { showConfirmToReloadMessage } from '../messages/reload';
+
+/** Get list of configuration entries of package.json */
+export const getExtensionConfiguration = (): { [config: string]: any } => {
+  return vscode.extensions.getExtension('Yummygum.city-lights-icon-vsc').packageJSON.contributes.configuration.properties;
+};
 
 /** Get configuration of vs code */
 export const getConfig = (section?: string) => {
@@ -38,6 +44,12 @@ export const getCityLightsIconJSON = (): Promise<any> => {
 }
 
 /** Reload vs code window */
+export const promptToReload = () => {
+  return showConfirmToReloadMessage().then(result => {
+    if (result) reloadWindow();
+  })
+}
+
 const reloadWindow = () => {
   return vscode.commands.executeCommand('workbench.action.reloadWindow');
 };

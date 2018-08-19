@@ -33,7 +33,6 @@ const showQuickPickItems = (status: boolean) => {
 
 /** Handle the actions from the QuickPick. */
 const handleQuickPickActions = (value: vscode.QuickPickItem) => {
-  console.log(value);
   if (!value || !value.description) return;
   switch (value.description) {
     case 'ON': {

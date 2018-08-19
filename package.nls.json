@@ -1,4 +1,5 @@
 {
   "displayName": "City Lights Icon Theme",
-  "description": "The City Lights Color Theme is a gorgeous dark color theme designed with focus in mind."
+  "description": "The City Lights Color Theme is a gorgeous dark color theme designed with focus in mind.",
+  "configuration.hidesExplorerArrows": "Hide explorer arrows before folder."
 }

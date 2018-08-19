@@ -9,7 +9,7 @@ export const toggleFolderArrows = () => {
     .then(showQuickPickItems)
     .then(handleQuickPickActions)
     .catch(err => console.log(err));
-}
+};
 
 /** Show QuickPics items to select prefered configuration for the folder icons */
 const showQuickPickItems = (status: boolean) => {
@@ -17,7 +17,7 @@ const showQuickPickItems = (status: boolean) => {
     description: 'ON',
     detail: 'Show folder arrows',
     label: !status ? '\u2714' : '\u25FB'
-  }
+  };
   const off: vscode.QuickPickItem = {
     description: 'OFF',
     detail: 'Hide folder arrows',
@@ -29,7 +29,7 @@ const showQuickPickItems = (status: boolean) => {
       ignoreFocusOut: false,
       matchOnDescription: true
     });
-}
+};
 
 /** Handle the actions from the QuickPick. */
 const handleQuickPickActions = (value: vscode.QuickPickItem) => {

@@ -6,14 +6,14 @@ import * as bb from 'bluebird';
 
 export const changeOptions = async (updatedConfigs?: any, updatedJSONConfig?: any) => {
   const jsonFiles = ['city-lights-icon-theme-light', 'city-lights-icon-theme']
-    .map(name => path.join(__dirname,`../../../icons/${name}.json`));
-  
+    .map(name => path.join(__dirname, `../../../icons/${name}.json`));
+
   jsonFiles.forEach(file => {
     bb.promisify(fs.readFile)(file)
       .then(data => JSON.parse(data.toString()))
       .then(json => {
         const options = merge({}, json, updatedJSONConfig, { options: updatedJSONConfig });
-        return JSON.stringify(options, null, 2);
-      }).then(jsonString => bb.promisify(fs.writeFile)(file, jsonString))
-  })
-}
+        return JSON.stringify(options, undefined, 2);
+      }).then(jsonString => bb.promisify(fs.writeFile)(file, jsonString));
+  });
+};

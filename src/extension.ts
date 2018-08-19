@@ -14,7 +14,7 @@ export function activate (context: vscode.ExtensionContext) {
   showStartMessages(checkThemeStatus(context.globalState));
 
   // Adding commands to the editor
-  context.subscriptions.push(...commands.commands)
+  context.subscriptions.push(...commands.commands);
 
   // Initially trigger the config change detection
   detectConfigChanges().catch(e => {
@@ -22,7 +22,7 @@ export function activate (context: vscode.ExtensionContext) {
   });
 
   vscode.workspace.onDidChangeConfiguration(detectConfigChanges);
-};
+}
 
 /** This method is called when the extension is deactivated */
-export function deactivate () {};
+export function deactivate () {}

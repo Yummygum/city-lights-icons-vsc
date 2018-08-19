@@ -7,7 +7,7 @@ import { changeOptions } from './changeOptions';
 export const detectConfigChanges = () => {
   const configs = Object.keys(getExtensionConfiguration())
     .map(c => c.split('.').slice(1).join('.'));
-  
+
   return compareConfigs(configs).then(changes => {
     // if there's nothing to update
     if (Object.keys(changes.updatedConfigs).length === 0) return;
@@ -15,7 +15,7 @@ export const detectConfigChanges = () => {
       promptToReload();
     }).catch(err => console.error(err));
   });
-}
+};
 
 /**
  * Compares a specific configuration in the settings with a current configuration state.

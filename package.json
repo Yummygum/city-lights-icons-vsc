@@ -1,20 +1,72 @@
 {
-	"name": "city-lights-icon-vsc",
-	"displayName": "City Lights Icon package",
-	"description": ":",
-	"categories": [ "Themes", "icons", "icon" ],
-	"version": "1.0.1",
+  "name": "city-lights-icon-vsc",
+  "displayName": "City Lights Icon package",
+  "description": ":",
+  "categories": [
+    "Themes"
+  ],
+  "version": "1.0.1",
   "publisher": "Yummygum",
   "repository": "https://github.com/Yummygum/city-lights-icons-vsc",
-	"engines": { "vscode": "*" },
+  "engines": {
+    "vscode": "^1.5.0"
+  },
   "icon": "icon.png",
-	"contributes": {
-		"iconThemes": [
-			{
-				"id": "city-lights-icons-vsc",
-				"label": "City Lights Icon Theme (Visual Studio Code)",
-				"path": "./icons/city-lights-icon-theme.json"
-			}
-		]
-	}
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/src/extension",
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "city-lights-icons-vsc",
+        "label": "City Lights Icon Theme (Visual Studio Code) - Black & White",
+        "path": "./icons/city-lights-icon-theme.json"
+      },
+      {
+        "id": "city-lights-icons-vsc-light",
+        "label": "City Lights Icon Theme (Visual Studio Code) - Colors",
+        "path": "./icons/city-lights-icon-theme-light.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "city-lights-icons-vsc.hidesExplorerArrows",
+        "title": "City Lights Icons: Toggle Folder Arrows"
+      }
+    ],
+    "configuration": {
+      "title": "%displayName%",
+      "properties": {
+        "city-lights-icons-vsc.hidesExplorerArrows": {
+          "type": "boolean",
+          "default": false,
+          "description": "%configuration.hidesExplorerArrows%",
+          "scope": "window"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run build",
+    "prebuild": "npm run lint && npm run clean",
+    "build": "npm run compile",
+    "compile": "tsc -p ./",
+    "clean": "rimraf ./out",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "lint": "tslint -c tslint.json ./src/**/*.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^10.7.1",
+    "rimraf": "^2.6.2",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1",
+    "vscode": "^1.1.21"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "lodash.merge": "^4.6.1",
+    "semver": "^5.5.1"
+  }
 }

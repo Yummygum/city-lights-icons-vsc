@@ -5,9 +5,11 @@ The City Lights Color Theme is a gorgeous dark syntax theme designed with focus 
 This City Lights Icon Theme is a part of City Lights; suite of beautiful matte dark themed goodies for Atom & Visual Studio Code. For more information, please go to http://citylights.xyz.
 
 ## Themes
-Owww yeah! We have now two themes:
+We have two themes:
 - Black and white.
 - Colored.
+
+![Preview](https://raw.githubusercontent.com/yummygum/city-lights-icons-vsc/master/city-lights-icon-preview.gif)
 
 Pick your favorite theme and have fun! :tada:
 

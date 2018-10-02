@@ -8,7 +8,7 @@ export const showStartMessages = (themeStatus: Promise<ThemeStatus>) => {
           console.log('UPDATED');
         }
         else if (status === ThemeStatus.neverUsedBefore) {
-          vscode.window.showInformationMessage('Thanks for use City Lights Themes');
+          vscode.window.showInformationMessage('Thanks for using City Lights');
         }
     });
 };

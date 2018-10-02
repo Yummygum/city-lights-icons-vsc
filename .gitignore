@@ -3,3 +3,4 @@ yarn-error.log
 out/
 images/.DS_Store
 .DS_Store
+package-lock.json

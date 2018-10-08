@@ -429,6 +429,7 @@
     "yml": "_yaml_light",
     "yaml": "_yml_light",
     "js": "_js_light",
+    "jsx": "_jsx_light",
     "spec.js": "_js_light",
     "js.map": "_js_light",
     "es": "_js_light",

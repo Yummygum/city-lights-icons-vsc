@@ -423,6 +423,7 @@
     "gitattributes": "_git",
     "gitmodules": "_git",
     "ts": "_typescript",
+    "jsx": "_jsx",
     "typescript": "_typescript",
     "spec.ts": "_typescript",
     "typescriptreact": "_typescript",

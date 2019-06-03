@@ -405,6 +405,12 @@
     },
     "_zip_light": {
       "iconPath": "./svg/zip-icon-active.svg"
+    },
+    "_toml_light": {
+      "iconPath": "./svg/toml-icon-active.svg"
+    },
+    "_toml": {
+      "iconPath": "./svg/toml-icon.svg"
     }
   },
   "file": "_default_light",
@@ -492,7 +498,8 @@
     "xls": "_excel_light",
     "xlsx": "_excel_light",
     "php": "_php_light",
-    "travis.yml": "_travis_light"
+    "travis.yml": "_travis_light",
+    "toml": "_toml_light"
   },
   "languageIds": {
     "clojure": "_clojure_light",

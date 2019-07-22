@@ -513,7 +513,9 @@
     "travis.yml": "_travis_light",
     "svelte": "_svelte_light",
     "graphql": "_graphql_light",
-    "mint": "_mint_light"
+    "mint": "_mint_light",
+    "haml": "_haml_light",
+    "erb": "_haml_light"
   },
   "languageIds": {
     "clojure": "_clojure_light",

@@ -423,6 +423,7 @@
     },
     "_mint_light": {
       "iconPath": "./svg/mint-icon-active.svg"
+    },
     "_toml_light": {
       "iconPath": "./svg/toml-icon-active.svg"
     },
@@ -521,7 +522,7 @@
     "graphql": "_graphql",
     "mint": "_mint",
     "haml": "_haml",
-    "erb": "_haml"
+    "erb": "_haml",
     "toml": "_toml"
   },
   "languageIds": {

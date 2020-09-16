@@ -406,6 +406,23 @@
     "_zip_light": {
       "iconPath": "./svg/zip-icon-active.svg"
     },
+    "_svelte": {
+      "iconPath": "./svg/svelte-icon.svg"
+    },
+    "_svelte_light": {
+      "iconPath": "./svg/svelte-icon-active.svg"
+    },
+    "_graphql": {
+      "iconPath": "./svg/graphql-icon.svg"
+    },
+    "_graphql_light": {
+      "iconPath": "./svg/graphql-icon-active.svg"
+    },
+    "_mint": {
+      "iconPath": "./svg/mint-icon.svg"
+    },
+    "_mint_light": {
+      "iconPath": "./svg/mint-icon-active.svg"
     "_toml_light": {
       "iconPath": "./svg/toml-icon-active.svg"
     },
@@ -499,6 +516,11 @@
     "xlsx": "_excel_light",
     "php": "_php_light",
     "travis.yml": "_travis_light",
+    "svelte": "_svelte_light",
+    "graphql": "_graphql_light",
+    "mint": "_mint_light",
+    "haml": "_haml_light",
+    "erb": "_haml_light"
     "toml": "_toml_light"
   },
   "languageIds": {
@@ -530,7 +552,10 @@
     "vue-html": "_vue_light",
     "git-commit": "_git_light",
     "git-rebase": "_git_light",
-    "textplain": "_textfile_light"
+    "textplain": "_textfile_light",
+    "svelte": "_svelte_light",
+    "graphql": "_graphql_light",
+    "mint": "_mint_light"
   },
   "fileNames": {
     "yarn.clean": "_yarn_light",

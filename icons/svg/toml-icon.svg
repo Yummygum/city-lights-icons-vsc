@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #121212;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        fill: #596071;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#596071"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-1">
+    <path class="cls-2" d="M12.738,1h2V15h-2V1Z"/>
+    <path class="cls-2" d="M9.738,13h5v2h-5V13Z"/>
+    <path class="cls-2" d="M9.738,1h5V3h-5V1Z"/>
+  </g>
+  <g class="cls-1">
+    <rect id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-3" x="1" y="1" width="2" height="14"/>
+    <rect id="Rectangle_2_copy" data-name="Rectangle 2 copy" class="cls-3" x="1" y="1" width="5" height="2"/>
+    <rect id="Rectangle_3_copy" data-name="Rectangle 3 copy" class="cls-3" x="1" y="13" width="5" height="2"/>
+  </g>
+  <rect class="cls-4" x="5" y="5" width="6" height="1.75"/>
+  <rect class="cls-4" x="7.25" y="5.875" width="1.5" height="6.125"/>
+</svg>

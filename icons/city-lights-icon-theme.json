@@ -423,6 +423,11 @@
     },
     "_mint_light": {
       "iconPath": "./svg/mint-icon-active.svg"
+    "_toml_light": {
+      "iconPath": "./svg/toml-icon-active.svg"
+    },
+    "_toml": {
+      "iconPath": "./svg/toml-icon.svg"
     }
   },
   "file": "_default",
@@ -516,6 +521,7 @@
     "mint": "_mint",
     "haml": "_haml",
     "erb": "_haml"
+    "toml": "_toml"
   },
   "languageIds": {
     "clojure": "_clojure",
